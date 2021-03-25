@@ -1,0 +1,111 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T11:36:29.281Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3886310865,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "SuperAdmin should be able to create moderator and editor roles",
+        "description": "",
+        "id": "end-to-end-test-for-question;superadmin-should-be-able-to-create-moderator-and-editor-roles",
+        "after": [
+          {
+            "result": {
+              "duration": 146774744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3679102471,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login as a superadmin",
+            "match": {
+              "location": "EndToEndStepDef.login_as_a_superadmin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14444096840,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "create a teacher and verify created teacher",
+            "match": {
+              "location": "EndToEndStepDef.createATeacherAndVerifyCreatedTeacher()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12371676015,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "create a salesman and verify created salesman",
+            "match": {
+              "location": "EndToEndStepDef.createASalesmanAndVerifyCreatedSalesman()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9328459420,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "create a schoolAdmin and verify schoolAdmin",
+            "match": {
+              "location": "EndToEndStepDef.createASchoolAdminAndVerifySchoolAdmin()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webEndToEnd"
+          },
+          {
+            "name": "@rolesCreate"
+          }
+        ]
+      }
+    ],
+    "name": "End to End test for question",
+    "description": "",
+    "id": "end-to-end-test-for-question",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/fetaures/UIfeatures/EndToEnd.feature",
+    "tags": [
+      {
+        "name": "@webEndToEnd",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
