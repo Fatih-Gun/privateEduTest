@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         glue = "com/stepDefinitions",
         features = "src/test/resources/fetaures/UIfeatures",
-        tags = "@rolesCreate",
+        tags = "@weblogin",
         dryRun = false
 
 )

@@ -1,39 +1,45 @@
-com/UI_Test/page/Login.java
- com.UI_Test.page.Login
-com/BE_Test/page/RegisterBEiam.java
- com.BE_Test.page.RegisterBEiam
+com/BE_Test/runner/CukesRunnerBE.java
+ com.BE_Test.runner.CukesRunnerBE
 com/BE_Test/utilities/ConfigurationReader.java
  com.BE_Test.utilities.ConfigurationReader
-com/BE_Test/page/UserCreateIAM.java
- com.BE_Test.page.UserCreateIAM
-com/UI_Test/utilities/Driver.java
- com.UI_Test.utilities.Driver
+com/stepDefinitions/BE/RegisterStepDef.java
+ com.stepDefinitions.BE.RegisterStepDef
+com/UI_Test/page/EndToEndPage.java
+ com.UI_Test.page.EndToEndPage
 com/BE_Test/page/UserBody.java
  com.BE_Test.page.UserBody
-com/UI_Test/runner/CukesRunnerUI.java
- com.UI_Test.runner.CukesRunnerUI
-com/BE_Test/page/Tokens.java
- com.BE_Test.page.Tokens
-com/UI_Test/utilities/ConfigurationReader.java
- com.UI_Test.utilities.ConfigurationReader
+com/stepDefinitions/UI/LoginStepDefinition.java
+ com.stepDefinitions.UI.LoginStepDefinition
+com/BE_Test/page/RegisterBEiam.java
+ com.BE_Test.page.RegisterBEiam
+com/stepDefinitions/UI/EndToEndStepDef.java
+ com.stepDefinitions.UI.EndToEndStepDef
+com/UI_Test/utilities/Driver.java
+ com.UI_Test.utilities.Driver
+com/UI_Test/page/Login.java
+ com.UI_Test.page.Login
+com/UI_Test/page/ModeratorsPage.java
+ com.UI_Test.page.ModeratorsPage
 com/UI_Test/utilities/BrowserUtils.java
  com.UI_Test.utilities.BrowserUtils
  com.UI_Test.utilities.BrowserUtils$1
-com/BE_Test/page/LoginBEiam.java
- com.BE_Test.page.LoginBEiam
-com/BE_Test/runner/CukesRunnerBE.java
- com.BE_Test.runner.CukesRunnerBE
-com/stepDefinitions/BE/userCreateStepDef.java
- com.stepDefinitions.BE.userCreateStepDef
+com/UI_Test/utilities/ConfigurationReader.java
+ com.UI_Test.utilities.ConfigurationReader
+com/UI_Test/runner/CukesRunnerUI.java
+ com.UI_Test.runner.CukesRunnerUI
 com/stepDefinitions/Hooks.java
  com.stepDefinitions.Hooks
-com/stepDefinitions/BE/RegisterStepDef.java
- com.stepDefinitions.BE.RegisterStepDef
-com/stepDefinitions/UI/LoginStepDefinition.java
- com.stepDefinitions.UI.LoginStepDefinition
+com/BE_Test/page/LoginBEiam.java
+ com.BE_Test.page.LoginBEiam
+com/BE_Test/page/Tokens.java
+ com.BE_Test.page.Tokens
 com/stepDefinitions/BE/LoginStepDefinitionBE.java
  com.stepDefinitions.BE.LoginStepDefinitionBE
-com/UI_Test/page/EndToEndPage.java
- com.UI_Test.page.EndToEndPage
-com/stepDefinitions/UI/EndToEndStepDef.java
- com.stepDefinitions.UI.EndToEndStepDef
+com/UI_Test/page/EditorsPage.java
+ com.UI_Test.page.EditorsPage
+com/stepDefinitions/BE/userControllerStepDef.java
+ com.stepDefinitions.BE.userControllerStepDef
+com/BE_Test/page/UserController.java
+ com.BE_Test.page.UserController
+com/BE_Test/DeSerialization.java
+ com.BE_Test.DeSerialization

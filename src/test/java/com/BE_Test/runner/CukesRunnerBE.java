@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         },
        glue = "com/stepDefinitions",
         features = "src/test/resources/fetaures/BEfeatures",
-        tags ="@apiUserCreate",
+        tags ="@userSearchAll",
         dryRun = false
 
 )

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.BE_Test.DeSerialization" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-31T16:03:21" hostname="00079FG" time="1.28">
+  <properties/>
+  <testcase name="test" classname="com.BE_Test.DeSerialization" time="1.28"/>
+  <system-out><![CDATA[firstName: null
+id: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
