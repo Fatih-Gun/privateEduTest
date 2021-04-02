@@ -20,6 +20,51 @@ public class Tokens {
     static String expertEmail= ConfigurationReader.get("expertEmail");
     static String password=ConfigurationReader.get("commonPassword");
 
+
+    public static Map<String,Object> token(String role){
+        String email="";
+        String password=ConfigurationReader.get("commonPassword");
+
+        switch (role){
+            case "superadmin":
+                email= ConfigurationReader.get("superAdminEmail");
+                break;
+
+            case "moderator":
+                email= ConfigurationReader.get("moderatorEmail");
+                break;
+            case "editor":
+                email= ConfigurationReader.get("editorEmail");
+                break;
+            case "teacher":
+                email= ConfigurationReader.get("teacherEmail");
+                break;
+            case "student":
+                email= ConfigurationReader.get("studentEmail");
+                break;
+            case "salesman":
+                email=ConfigurationReader.get("salesmanEmail");
+                break;
+            case "schooladmin":
+                email=ConfigurationReader.get("schoolAdminEmail");
+                break;
+            case "expert":
+                email=ConfigurationReader.get("expertEmail");
+                break;
+
+            default:
+                System.out.println("Check the role");
+        }
+        Map<String, Object> credentials= new HashMap<>();
+        credentials.put("email",email);
+        credentials.put("password",password);
+        Response response =given().contentType(ContentType.JSON).and().body(credentials).post("IAM-SERVICE/api/auth/login");
+        Map<String, Object> token=new HashMap<>();
+        token.put("Authorization","Bearer "+response.jsonPath().getString("data.token"));
+
+        return token;
+    }
+
     public static String superAdminToken(){
 
         Map<String, Object> credentials= new HashMap<>();
